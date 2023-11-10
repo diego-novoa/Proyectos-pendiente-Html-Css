@@ -32,3 +32,11 @@ const reviews = [
 },
 
 ];
+const img = document.getElementById("oficina-1.jpg");
+const location = document.getElementById("location");
+const Specifications = document.getElementById("Specifications");
+const info = document.getElementById("info");
+
+const prevBtn = document.querySelector("prev-btn");
+const nexBtn = document.querySelector("prev-btn");
+const randomBtn = document.querySelector("prev-btn");
