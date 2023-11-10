@@ -32,7 +32,7 @@ const reviews = [
 },
 
 ];
-const img = document.getElementById("oficina-1.jpg");
+const img = document.getElementById("Oficina-1.jpg");
 const location = document.getElementById("location");
 const Specifications = document.getElementById("Specifications");
 const info = document.getElementById("info");
@@ -44,10 +44,14 @@ const randomBtn = document.querySelector("randomBtn");
 let currentItem = 0;
 
 window.addEventListener("DOMcontenLoaded",function(){
-  const item = reviews[currentItem];
+  showOficina1[currentItem];
+  
+});
+
+function showOficina1(Oficina1){
+  const item = reviews[Oficina1];
   img.src = item.img;
   location.textContent = item.programmersoffice;
   Specifications.textContent =item.programmerjob;
   info.textContent = item.tex;
-
-});
+}
