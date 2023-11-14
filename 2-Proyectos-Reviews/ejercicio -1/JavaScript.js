@@ -58,5 +58,8 @@ function showOficina1(Oficina1){
 
 nexBtn.addEventListener("clik",function(){
   currentItem++
+  if(currentItem >reviews.length-1){
+    currentItem = 0;
+  }
   showOficina1(currentItem);
 });
