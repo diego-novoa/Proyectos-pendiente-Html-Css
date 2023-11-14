@@ -44,12 +44,12 @@ const randomBtn = document.querySelector("randomBtn");
 let currentItem = 0;
 
 window.addEventListener("DOMcontenLoaded",function(){
-  showOficina1[currentItem];
+  showOficina1();
   
 });
 
-function showOficina1(Oficina1){
-  const item = reviews[Oficina1];
+function showOficina1(){
+  const item = reviews[currentItem];
   img.src = item.img;
   location.textContent = item.programmersoffice;
   Specifications.textContent =item.programmerjob;
@@ -61,7 +61,7 @@ nexBtn.addEventListener("clik",function(){
   if(currentItem >reviews.length-1){
     currentItem = 0;
   }
-  showOficina1(currentItem);
+  showOficina1();
 });
 
 prevBtn.addEventListener("clik",function(){
@@ -69,5 +69,5 @@ prevBtn.addEventListener("clik",function(){
   if(currentItem <0){
     currentItem = reviews.length-1;
   }
-  showOficina1(currentItem);
+  showOficina1();
 });
