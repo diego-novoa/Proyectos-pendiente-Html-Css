@@ -57,9 +57,17 @@ function showOficina1(Oficina1){
 }
 
 nexBtn.addEventListener("clik",function(){
-  currentItem++
+  currentItem++;
   if(currentItem >reviews.length-1){
     currentItem = 0;
+  }
+  showOficina1(currentItem);
+});
+
+prevBtn.addEventListener("clik",function(){
+  currentItem--;
+  if(currentItem <0){
+    currentItem = reviews.length-1;
   }
   showOficina1(currentItem);
 });
