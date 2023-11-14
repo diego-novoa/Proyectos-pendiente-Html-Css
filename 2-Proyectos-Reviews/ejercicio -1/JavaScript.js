@@ -55,3 +55,8 @@ function showOficina1(Oficina1){
   Specifications.textContent =item.programmerjob;
   info.textContent = item.tex;
 }
+
+nexBtn.addEventListener("clik",function(){
+  currentItem++
+  showOficina1
+});
