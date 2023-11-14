@@ -56,7 +56,7 @@ function showOficina1(){
   info.textContent = item.tex;
 }
 
-nexBtn.addEventListener("clik",function(){
+nexBtn.addEventListener("click",function(){
   currentItem++;
   if(currentItem >reviews.length-1){
     currentItem = 0;
@@ -64,10 +64,14 @@ nexBtn.addEventListener("clik",function(){
   showOficina1();
 });
 
-prevBtn.addEventListener("clik",function(){
+prevBtn.addEventListener("click",function(){
   currentItem--;
   if(currentItem <0){
     currentItem = reviews.length-1;
   }
   showOficina1();
+});
+
+randomBtn.addEventListener("click",function(){
+
 });
