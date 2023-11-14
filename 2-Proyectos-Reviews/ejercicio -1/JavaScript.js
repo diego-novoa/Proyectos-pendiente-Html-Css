@@ -58,5 +58,5 @@ function showOficina1(Oficina1){
 
 nexBtn.addEventListener("clik",function(){
   currentItem++
-  showOficina1
+  showOficina1(currentItem);
 });
