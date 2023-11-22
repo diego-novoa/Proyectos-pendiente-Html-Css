@@ -11,7 +11,7 @@ const reviews = [
   id: 2,
   location: "programmer job",
   Specifications: "programmer job",
-  img: "./Oficina-2.jpg",
+  img: "./Oficina-1.2.jpg",
   tex: "",
 },
 
@@ -19,7 +19,7 @@ const reviews = [
   id: 3,
   location: "programmer job",
   Specifications: "programmer job",
-  img: "./Oficina-3.jpg",
+  img: "./Oficina-1.3.jpg",
   tex: "",
 },
 
@@ -27,7 +27,7 @@ const reviews = [
   id: 4,
   location: "programmer job",
   Specifications: "programmer job",
-  img: "./Oficina-4.jpg",
+  img: "./Oficina-1.4.jpg",
   tex: "",
 },
 
